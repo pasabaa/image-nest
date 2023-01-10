@@ -1,0 +1,16 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-black/95
+}
+
+.card-hover:hover img {
+    transform: scale(1.024);
+}
+
+img {
+    transition: all 200ms ease;
+}
