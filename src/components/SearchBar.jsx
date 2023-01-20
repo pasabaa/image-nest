@@ -5,7 +5,7 @@ return (
     <button className='bg-white p-4 rounded-l-full'><i className='bi bi-search text-gray-600'></i></button>
     <input type="text" name="search"
         className='font-light inline-block w-full h-14 focus:outline-none text-gray-400 focus:text-gray-600'
-        placeholder='Search for all images and videos on Pixabay' onChange={(e)=> setTerm(e.target.value)} />
+        placeholder='Busca imágenes y videos en ImageNest' onChange={(e)=> setTerm(e.target.value)} />
     <div className='bg-white h-14 rounded-r-full flex flex-col items-center justify-center'>
         <div className='relative'>
             <button onClick={()=>setVisible(!visible)} className='flex text-gray-500 gap-4 hover:bg-blue-50 py-2 px-3

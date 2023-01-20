@@ -64,7 +64,7 @@ export const Hero = () => {
                             <img src="/imagenest.png" alt="ImageNest Logo" width={150} height={150} />
                         </div>
                         <h1 className='font-bold text-4xl'>Increíbles Imágenes Gratis Para Descargar</h1>
-                        <p className='mt-4'>El banco de Pixabay, tiene más de 1 millón de imágenes y videos compartidos por su talentosa comunidad.</p>
+                        <p className='mt-4'>Más de 1 millón de imágenes y videos compartidos por una talentosa comunidad.</p>
                         <div className='mt-10 flex items-center justify-center'>
                         
                         <SearchBar 
